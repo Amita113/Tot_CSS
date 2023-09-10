@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  /* list-style-image: url('list.svg');
+  list-style-position: outside;
+  list-style-type:square; */
+  /* Add a linear gradient effect for bullets */
+  /* list-style-image: linear-gradient(to left bottom, red, blue); */
+list-style: square url("lis.svg") inside ;
+}
+.in{
+  list-style-position: inside;
+  
+}
+ 
+</style>
+</head>
+<body>
+
+<h2>The list-style-image Property</h2>
+<h1>used feather icons as list-style-image</h1>
+<p>The list-style-image property specifies an image as the list item marker:</p>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea
+    <ul class="in">
+      <li>Lemon Tea</li>
+      <li>Ice Tea</li>
+      <li>Ginger Tea</li>
+    </ul>
+  </li>
+  <li>Coca Cola</li>
+</ul>
+
+</body>
+</html>
+
+
